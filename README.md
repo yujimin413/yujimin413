@@ -85,3 +85,12 @@ Standing at the intersection of **Data Engineering** and **Backend Development**
 ## 🎓 Education
 * **Soongsil University** | Computer Science & Engineering (2021.03 ~ Current)
 * **Illinois Institute of Technology** | Exchange Student (2024.01 ~ 2024.05)
+
+---
+## 🧩 Problem Solving
+> **Algorithm & Data Structure Practice**
+<div align="left">
+  <a href="https://solved.ac/yujimin">
+    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yujimin" width="350">
+  </a>
+</div>
