@@ -1,4 +1,9 @@
-# Hi there, I'm Jimin Yu 👋
+<!-- header -->
+<div align="left">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Hi%20there,%20I'm%20Jimin%20Yu!&fontSize=70&animation=fadeIn&fontAlignY=38&descAlignY=51&descAlign=62"/>
+</div>
+
+---
 
 I look beyond simple feature implementation, focusing deeply on **efficient data processing and stable system architecture**.
 Standing at the intersection of **Data Engineering** and **Backend Development**, I thrive on paving the way for data flows and elevating the completeness of the services built upon them.
