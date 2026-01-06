@@ -1,10 +1,10 @@
 # Hi there, I'm Jimin Yu 👋
 > **"불편함의 이면을 읽고, 가장 합리적인 기술로 답하는 개발자"**
 
-저는 기술 그 자체보다 기술이 닿는 **사람과 현장**을 먼저 바라봅니다.
+기술이 닿는 **사람과 현장**을 먼저 바라봅니다.
 비효율적인 반복 업무나 흩어진 정보로 인해 낭비되는 시간을 **안정적인 시스템 구조**로 해결할 때 가장 큰 보람을 느낍니다.
 
-무조건적인 최신 기술을 도입보다, 문제의 크기에 맞는 **합리적인 엔지니어링**을 지향합니다.
+문제의 규모와 본질에 집중하는 **합리적인 엔지니어링**을 지향합니다.
 서울시청, 교환학생 플랫폼, 금융 데이터 처리 경험을 통해 **데이터의 흐름을 설계하고, 그 끝에 있는 사용자의 편의를 완성**해왔습니다.
 
 ---
@@ -20,12 +20,12 @@
 #### 2️⃣ 흩어진 정보를 모아 정돈된 경험을 제공합니다 (Data Integrator)
 **"교환학생 준비, 왜 이렇게 정보가 파편화되어 있을까요?"**
 직접 겪은 정보 탐색의 막막함을 해결하기 위해 학교별로 흩어진 데이터를 모아 **교환학생 정보 공유 플랫폼**을 개발했습니다.  
-- **How**: '4.5만점/4.3만점' 등 학교마다 다른 성적 기준과 텍스트로 된 지원 자격을 분석하여 정규화된 DB 스키마로 재설계했습니다. 또한, 학생들의 두서없는 후기를 OpenAI API로 요약해 핵심 정보만 전달하도록 구현했습니다.
-- **Impact**: 사용자가 일일이 환산하고 찾아보는 시간을 줄여, 정보 접근성을 높이는 데 기여했습니다.
+- **How**: '4.5만점/4.3만점' 등 학교마다 다른 성적 기준과 텍스트로 된 지원 자격을 정규화된 RDB 스키마로 재설계했습니다. 또한 AWS EC2/RDS 기반의 서버 아키텍처를 구축하여 안정적인 서비스 환경을 마련했습니다.
+- **Impact**: 사용자가 일일이 환산하고 찾아보는 시간을 줄여, 정보 접근성을 높였습니다.
 
 #### 3️⃣ 비용과 성능의 균형을 봅니다 (Pragmatic Engineer)
 **"좋은 기술도 비용이 합리적이어야 지속 가능합니다."**
-**AI 투자 습관 코칭 서비스** 프로젝트에서, 방대한 데이터를 모두 LLM으로 처리할 때 발생하는 과도한 API 비용 문제를 하이브리드 처리 방식으로 해결했습니다.
+**AI 투자 습관 코칭 서비스** 프로젝트에서, 방대한 데이터를 모두 LLM으로 처리할 때 발생하는 과도한 API 비용 문제를 단계적 필터링 구조로 해결했습니다.
 - **How**: 모든 데이터를 바로 AI에 넘기지 않고, 통계적 기법(`RapidFuzz`, `Clustering`)으로 중복 기사와 노이즈를 1차 필터링한 후, **고밀도 정보만 선별하여 요약**하는 로직을 구현했습니다.
 - **Impact**: 정보의 정확도는 유지하면서 API 호출 비용을 효과적으로 절감하는, 현실적이고 합리적인 데이터 처리 구조를 만들었습니다.
 
@@ -52,14 +52,14 @@
 ### **2025**
 - **Aug** | 📈 **M-able 룰틴: AI 투자 습관 코칭 서비스** (KB AI Challenge)
     - 금융 뉴스 데이터 전처리 및 투자 습관 분석 파이프라인 설계
-    - `RapidFuzz` + `KoBART` 하이브리드 설계로 API 비용 절감 및 데이터 정합성 확보
+    - `RapidFuzz` + `KoBART` 설계로 API 비용 절감 및 데이터 정합성 확보
     - [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/yujimin413/financial-data-pipeline)
 - **Jul** | 🇺🇸 **USC SW Pioneer Program** (Los Angeles, USA)
     - Data Science, AI, ML 교육 과정 수료 (90시간)
     - **[Award]** USC IMSC Hackathon **3위 수상** (Data-Centric 접근으로 도로 파손 탐지 성능 참가팀 평균 대비 117% 개선)
 - **Mar — Jun** | ✈️ **교환학슝: 교환학생 정보 공유 플랫폼** (Capstone Design)
     - AWS EC2/RDS/S3 기반 서버 아키텍처 설계 및 구축 (Backend)
-    - 교환학생 파견교/지원자격/귀국보고서 데이터를 수집·분석해 정형 데이터셋으로 변환 (Data)
+    - 교환학생 파견교/지원자격/귀국보고서 데이터를 수집 및 분석해 정형 데이터셋으로 변환 (Data)
     - [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/yujimin413/exchange-data-prep)
 - **Jan — Feb** | 🏛️ **서울시청 챗봇 학습 데이터 구축** (Administrative Assistant)
     - 민원 이메일(.eml) 정제 자동화 및 챗봇 QA 데이터셋 구축
@@ -125,3 +125,8 @@
     <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yujimin" width="350">
   </a>
 </div>
+
+---
+## 🍫 Outside of Code
+### 🎵 Music & ✈️ Traveling
+<img src="https://github.com/user-attachments/assets/b9b6efb6-15f4-4aff-9ea2-88c6d6cf59fd" width="100%" alt="Music and Traveling">
